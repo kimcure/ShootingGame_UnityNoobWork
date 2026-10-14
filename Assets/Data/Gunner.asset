@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b8134a272227e9142bb131b07bc8eaf3, type: 3}
+  m_Name: Gunner
+  m_EditorClassIdentifier: Assembly-CSharp::EnemyData
+  kind: 2
+  frames:
+  - {fileID: 21300000, guid: 409e2fc7f66505c41a00c672fff0b5a4, type: 3}
+  - {fileID: 21300000, guid: 5213277db8f42ec4491294458daefb30, type: 3}
+  frameRate: 6
+  spriteScale: 1.2
+  explosionScale: 1
+  maxHP: 5
+  moveSpeed: 1.5
+  contactDamage: 1
+  scoreValue: 300
+  movePattern: 0
+  sineAmplitude: 1.5
+  sineFrequency: 2.5
+  fireInterval: 1.6
+  missileSpeed: 5
+  missileDamage: 1
+  aimAtPlayer: 1
